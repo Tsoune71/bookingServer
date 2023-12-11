@@ -1,5 +1,8 @@
 {
   "rewrites": [
+    { "source": "/room/(.*)", "destination": "/index.js" },
+    { "source": "/user/(.*)", "destination": "/index.js" },
+    { "source": "/schedule/(.*)", "destination": "/index.js" },
     { "source": "/(.*)", "destination": "/index.js" }
   ]
 }
