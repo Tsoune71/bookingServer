@@ -1,5 +1,8 @@
 {
   "routes": [
+    { "src": "/room/(.*)", "dest": "/index.js" },
+    { "src": "/user/(.*)", "dest": "/index.js" },
+    { "src": "/schedule/(.*)", "dest": "/index.js" },
     { "src": "/(.*)", "dest": "/index.js" }
-  ],
+  ]
 }
